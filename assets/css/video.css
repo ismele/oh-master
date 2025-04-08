@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  margin: 0;
+  background-image: url('../images/header-yellow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; /* Ajusta el ancho del contenedor */
+  max-width: 1950px; /* Máximo tamaño del video */
+  margin-top: 200px; /* Ajusta la posición hacia abajo */
+  margin-bottom: 10px; /* Ajusta la posición hacia arriba */
+  
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 25px; /* Bordes redondeados opcionales */
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 20px; /* Distancia desde la parte inferior */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffe787; /* Color de fondo */
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ce940d; /* Color de fondo cuando pasa el cursor */
+}
+
+.marquee span {
+  display: inline-block;
+  animation: marquee 5s linear infinite;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+
+
