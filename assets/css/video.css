@@ -10,11 +10,11 @@ body {
 }
 
 .video-container {
-  max-width: 100%;
-  width: 600px;
-  margin: 80px auto;
+  max-width: 90%;
+  width: 300px;
+  margin: 20px auto;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 5px;
   background: #f8f9fa;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -26,9 +26,9 @@ body {
 }
 
 .video-container iframe {
-  width:800%;
+  width:400%;
   height: 340px;
-  border-radius: 12px;
+  border-radius: 8px;
   border: none;
 }
 
