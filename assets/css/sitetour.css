@@ -136,3 +136,15 @@ main {
 .floating-button:hover {
     background-color: #e64a19;
 }
+
+
+.site-tour {
+    text-align: center;
+}
+
+.arrow {
+    color: #fff; /* White arrow color */
+    font-size: 2em; /* Adjust size as needed */
+    margin-top: 10px; /* Space between text and arrow */
+}
+
